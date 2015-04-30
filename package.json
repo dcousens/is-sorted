@@ -1,0 +1,28 @@
+{
+  "name": "checksort",
+  "version": "0.0.1",
+  "description": "checksort",
+  "main": "index.js",
+  "scripts": {
+    "standard": "standard",
+    "test": "npm run-script unit",
+    "unit": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcousens/checksort.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dcousens/checksort/issues"
+  },
+  "homepage": "https://github.com/dcousens/checksort",
+  "keywords": [
+    "checksort"
+  ],
+  "author": "Daniel Cousens",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "standard": "*"
+  }
+}
