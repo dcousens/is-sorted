@@ -1,5 +1,5 @@
 {
-  "name": "checksort",
+  "name": "is-sorted",
   "version": "1.0.0",
   "description": "A small module to check if an Array is sorted",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dcousens/checksort.git"
+    "url": "https://github.com/dcousens/is-sorted.git"
   },
   "bugs": {
-    "url": "https://github.com/dcousens/checksort/issues"
+    "url": "https://github.com/dcousens/is-sorted/issues"
   },
-  "homepage": "https://github.com/dcousens/checksort",
+  "homepage": "https://github.com/dcousens/is-sorted",
   "keywords": [
-    "checksort",
+    "is-sorted",
     "sorting",
     "sort",
     "sorted",

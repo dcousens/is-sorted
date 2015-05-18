@@ -1,7 +1,7 @@
-# checksort
+# is-sorted
 
-[![TRAVIS](https://secure.travis-ci.org/dcousens/checksort.png)](http://travis-ci.org/dcousens/checksort)
-[![NPM](http://img.shields.io/npm/v/checksort.svg)](https://www.npmjs.org/package/checksort)
+[![TRAVIS](https://secure.travis-ci.org/dcousens/is-sorted.png)](http://travis-ci.org/dcousens/is-sorted)
+[![NPM](http://img.shields.io/npm/v/is-sorted.svg)](https://www.npmjs.org/package/is-sorted)
 
 A small module to check if an Array is sorted.
 
@@ -9,12 +9,12 @@ A small module to check if an Array is sorted.
 ## Example
 
 ``` javascript
-var checksort = require('checksort')
+var sorted = require('is-sorted')
 
-console.log(checksort([1, 2, 3]))
+console.log(sorted([1, 2, 3]))
 // => true
 
-console.log(checksort([3, 1, 2]))
+console.log(sorted([3, 1, 2]))
 // => false
 ```
 
