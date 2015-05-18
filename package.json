@@ -1,7 +1,7 @@
 {
   "name": "checksort",
   "version": "0.0.1",
-  "description": "checksort",
+  "description": "A small module to check if an Array is sorted",
   "main": "index.js",
   "scripts": {
     "standard": "standard",
@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/dcousens/checksort",
   "keywords": [
-    "checksort"
+    "checksort",
+    "sorting",
+    "sort",
+    "sorted",
+    "array",
+    "list",
+    "comparison"
   ],
   "author": "Daniel Cousens",
   "license": "MIT",
