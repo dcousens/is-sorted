@@ -1,8 +1,8 @@
-function classicSort(a, b) {
+function classicSort (a, b) {
   return a - b
 }
 
-module.exports = function checksort(array, compare) {
+module.exports = function checksort (array, compare) {
   compare = compare || classicSort
 
   for (var i = 1; i < array.length; ++i) {
