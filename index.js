@@ -1,9 +1,9 @@
-function classicSort (a, b) {
+function defaultSort (a, b) {
   return a - b
 }
 
 module.exports = function checksort (array, compare) {
-  compare = compare || classicSort
+  compare = compare || defaultSort
 
   for (var i = 1; i < array.length; ++i) {
     var a = array[i - 1]
