@@ -9,7 +9,7 @@ module.exports = function checksort (array, compare) {
     var a = array[i - 1]
     var b = array[i]
 
-    if (compare(a, b) !== -1) return false
+    if (compare(a, b) > 0) return false
   }
 
   return true
