@@ -23,6 +23,4 @@ console.log(sorted([3, 2, 1], function (a, b) { return b - a })
 ```
 
 
-## License
-
-This library is free and open-source software released under the MIT license.
+## LICENSE [MIT](LICENSE)
