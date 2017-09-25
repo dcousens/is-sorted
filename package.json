@@ -28,7 +28,7 @@
   "author": "Daniel Cousens",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "*",
-    "standard": "*"
+    "standard": "*",
+    "tape": "^4.8.0"
   }
 }
