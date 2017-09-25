@@ -1,5 +1,17 @@
 [
   {
+    "array": [1],
+    "expected": true
+  },
+  {
+    "array": [5],
+    "expected": true
+  },
+  {
+    "array": [1, 5],
+    "expected": true
+  },
+  {
     "array": [1, 2, 3, 4, 5],
     "expected": true
   },
