@@ -1,5 +1,9 @@
 [
   {
+    "array": [],
+    "expected": true
+  },
+  {
     "array": [1],
     "expected": true
   },
