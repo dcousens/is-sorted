@@ -2,7 +2,8 @@ var sorted = require('../')
 var fixtures = require('./fixtures')
 var tape = require('tape')
 var comparators = {
-  descending: function (a, b) { return b - a }
+  descending: function (a, b) { return b - a },
+  NoFun: 'test'
 }
 
 fixtures.forEach(function (f) {
