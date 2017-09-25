@@ -1,4 +1,3 @@
-var assert = require('assert')
 var sorted = require('../')
 var fixtures = require('./fixtures')
 var tape = require('tape')
@@ -7,9 +6,10 @@ var comparators = {
 }
 
 fixtures.forEach(function (f) {
-  tape('returns ' + f.expected + ' for ' + f.array, function () {
-    var actual = sorted(f.array, comparators[f.comparator])
+  tape('returns ' + f.expected + ' for ' + f.array, function (t) {
+    t.plan(1)
 
-    assert.strictEqual(actual, f.expected)
+    var actual = sorted(f.array, comparators[f.comparator])
+    t.equal(actual, f.expected)
   })
 })
