@@ -13,3 +13,10 @@ fixtures.forEach(function (f) {
     t.equal(actual, f.expected)
   })
 })
+
+tape('throws on non-Array inputs', function (t) {
+  t.plan(1)
+  t.throws(function () {
+    sorted('foobar')
+  }, /Expected Array, got string/)
+})
