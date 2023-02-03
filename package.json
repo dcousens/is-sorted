@@ -2,11 +2,23 @@
   "name": "is-sorted",
   "version": "1.0.5",
   "description": "A small module to check if an Array is sorted",
-  "main": "index.js",
+  "module": "dist/index.mjs",
+  "type": "module",
+  "types": "dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
     "standard": "standard",
-    "test": "npm run-script unit",
-    "unit": "tape test/*.js"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -28,7 +40,15 @@
   "author": "Daniel Cousens",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@vitest/coverage-c8": "^0.28.3",
+    "rollup": "^3.13.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
     "standard": "*",
-    "tape": "^4.8.0"
+    "tape": "^4.8.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vitest": "^0.28.3"
   }
 }
