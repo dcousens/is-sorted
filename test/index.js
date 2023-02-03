@@ -1,18 +1,18 @@
-var sorted = require('../')
-var fixtures = require('./fixtures')
-var tape = require('tape')
-var comparators = {
+const sorted = require('../')
+const fixtures = require('./fixtures')
+const tape = require('tape')
+const comparators = {
   descending: function (a, b) { return b - a }
 }
 
-fixtures.forEach(function (f) {
+for (const f of fixtures)  {
   tape('returns ' + f.expected + ' for ' + f.array, function (t) {
     t.plan(1)
 
-    var actual = sorted(f.array, comparators[f.comparator])
+    const actual = sorted(f.array, comparators[f.comparator])
     t.equal(actual, f.expected)
   })
-})
+}
 
 tape('throws on non-Array inputs', function (t) {
   t.plan(1)
