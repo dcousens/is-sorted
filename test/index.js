@@ -5,7 +5,7 @@ const comparators = {
   descending: function (a, b) { return b - a }
 }
 
-for (const f of fixtures)  {
+for (const f of fixtures) {
   tape('returns ' + f.expected + ' for ' + f.array, function (t) {
     t.plan(1)
 

@@ -1,12 +1,11 @@
 {
   "name": "is-sorted",
   "version": "1.0.5",
-  "description": "A small module to check if an Array is sorted",
+  "description": "A compact module to check if an Array is sorted",
   "main": "index.js",
   "scripts": {
     "standard": "standard",
-    "test": "npm run-script unit",
-    "unit": "tape test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +28,6 @@
   "license": "MIT",
   "devDependencies": {
     "standard": "*",
-    "tape": "^4.8.0"
+    "tape": "^5.0.0"
   }
 }
