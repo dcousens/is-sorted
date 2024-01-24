@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "A compact module to check if an Array is sorted",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "standard": "standard",
     "test": "tape test/*.js"
